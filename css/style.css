@@ -1,8 +1,8 @@
 *{
     text-align: center;
-}
+}   
 
-ul,li{
+ul{
     list-style: none;
     padding: 0px;
 }
@@ -12,9 +12,7 @@ a{
     color: currentColor;
 }
 
-.de-bug{
-    border: 1px solid black;
-}
+
 
 
 header a{
@@ -33,6 +31,26 @@ header a{
     background-color: #2C3E50;
 }
 
+.section-2 img{
+    max-width: 230px;
+}
+
 .section-2{
     background-color: #1ABC9C;
 }
+
+/* debug */
+
+.de-bug{
+    border: 1px solid black;
+}
+.de-bug-section{
+    border: 1px solid red;
+}
+
+.de-bug-col{
+    border: 1px solid black;
+    height: 300px;
+}
+
+
