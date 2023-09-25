@@ -1,12 +1,38 @@
+*{
+    text-align: center;
+}
+
 ul,li{
     list-style: none;
+    padding: 0px;
 }
 
 a{
     text-decoration: none;
-    color: black;
+    color: currentColor;
 }
 
 .de-bug{
     border: 1px solid black;
+}
+
+
+header a{
+    padding: 10px;
+}
+
+:root{
+    --blunotte:#2C3E50;
+    --watergreen:#1ABC9C;
+    --darck-blu:#3A546D;
+}
+
+/* SEZIONI */
+
+.section-1{
+    background-color: #2C3E50;
+}
+
+.section-2{
+    background-color: #1ABC9C;
 }
