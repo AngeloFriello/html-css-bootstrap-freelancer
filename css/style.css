@@ -12,11 +12,9 @@ a{
     color: currentColor;
 }
 
-
-
-
-header a{
-    padding: 10px;
+img{
+    max-height: 100%;
+    max-width: 100%;
 }
 
 :root{
@@ -24,6 +22,18 @@ header a{
     --watergreen:#1ABC9C;
     --darck-blu:#3A546D;
 }
+
+
+/* UTILITY */
+
+.bottom-line{
+    border-bottom: 1px solid gray;
+}
+
+.top-line{
+    border-top: 1px solid gray;
+}
+
 
 /* SEZIONI */
 
@@ -35,22 +45,47 @@ header a{
     max-width: 230px;
 }
 
-.section-2{
+.section-2, .section-4{
     background-color: #1ABC9C;
 }
 
-/* debug */
+.section-6{
+    background-color: #2C3E50;
+}
 
+.section-7{
+    background-color: #3A546D;
+}
+
+
+/* debug */
+/* 
 .de-bug{
     border: 1px solid black;
 }
+
 .de-bug-section{
     border: 1px solid red;
 }
 
 .de-bug-col{
     border: 1px solid black;
-    height: 300px;
+   
+} */
+
+
+input{
+    border: 0px;
+    padding: 20px;
 }
 
+.i-big{
+    height: 200px;
+}
+
+
+.container-small{
+    max-width: 976px;
+    padding: 20px;
+}
 
