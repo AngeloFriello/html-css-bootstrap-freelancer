@@ -34,6 +34,29 @@ img{
     border-top: 1px solid gray;
 }
 
+.divisor::after,  .divisor::before {
+    height: 6px;
+    background-color: white;
+    max-width: 200px; 
+    content: '';
+    border-radius: 999px;
+    flex-grow: 1;
+    margin-bottom: 13px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.divisor-gray::after,  .divisor-gray::before {
+    height: 6px;
+    background-color: gray;
+    max-width: 200px; 
+    content: '';
+    border-radius: 999px;
+    flex-grow: 1;
+    margin-bottom: 13px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 /* SEZIONI */
 
@@ -97,4 +120,3 @@ input{
     max-width: 976px;
     padding: 20px;
 }
-
