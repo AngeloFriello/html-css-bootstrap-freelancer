@@ -106,9 +106,12 @@ img{
 } */
 
 
-input{
+input, textarea{
     border: 0px;
-    padding: 20px;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+    outline: none;
 }
 
 .i-big{
